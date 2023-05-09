@@ -1,0 +1,95 @@
+* {
+margin: 5;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+/*border: 2px solid red;*/
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.mt-3 {
+    margin-top: 3rem;
+}
+
+.shadow {
+    box-shadow: 2px 2px 8px #f111c1;
+}
+/* === estilos del header === */
+header {
+
+    background: #000;
+    display: flex;
+    justify-content: center;/*centrar en el main acsis o sea eje X */
+    align-items: center;
+    gap: 8rem;
+}
+img {
+    width: 200px;
+    display: flex;
+}   
+h1 {
+    color: aliceblue;
+}
+
+/* === estilos del header === */
+
+
+/* === estilos del nav === */
+
+nav {
+    background: #1adad4;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+display: flex;
+gap: 2rem;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+/* === estilos del nav === */
+
+/* === estilos del main === */
+
+/* === estilos de las cajas === */
+.Cajas {
+display: flex;
+gap: 30px;
+flex-wrap: wrap;
+}
+
+.caja {
+width: 100px;
+height: 100px;
+background: #f56dc1;
+}
+/* === estilos de las cajas === */
+
+/* === estilos de los textos === */
+
+.Container p {
+    background: #f1bee6;
+}
+
+/* === estilos de los textos === */
+/* === estilos del main === */
+
+footer {
+background: #1adad4;
+height: 3rem;
+margin-top: auto;
+}
